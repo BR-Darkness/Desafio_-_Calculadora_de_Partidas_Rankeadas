@@ -1,0 +1,51 @@
+:root 
+{
+    --rankColor: #f00;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) 
+{
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+html
+{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100;
+}
+
+h1
+{
+    font-family: "Playfair Display";
+    line-height: 85px !important;
+    font-variation-settings: 'opsz' 14;
+    font-optical-sizing: 14;
+}
+
+/* -----  ----- ScrollBar -----  ----- */
+
+::-webkit-scrollbar 
+{
+    height: .75em;
+    width: 1em;
+}
+
+::-webkit-scrollbar-track 
+{
+    background: #262626;
+}
+   
+::-webkit-scrollbar-thumb 
+{
+    border: 2px solid #262626;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #555; 
+}
+
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #777; 
+}
