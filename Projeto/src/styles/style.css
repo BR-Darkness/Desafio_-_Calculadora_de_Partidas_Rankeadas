@@ -1,6 +1,6 @@
 :root 
 {
-    --rankColor: #f00;
+    --rankColor: #545554;
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
@@ -16,10 +16,15 @@ html
     scroll-padding-top: 100;
 }
 
+body
+{
+    line-height: 1.65;
+}
+
 h1
 {
     font-family: "Playfair Display";
-    line-height: 85px !important;
+    line-height: 1.5 !important;
     font-variation-settings: 'opsz' 14;
     font-optical-sizing: 14;
 }

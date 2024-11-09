@@ -62,7 +62,7 @@ export function App() {
     <main className="max-w-[1376px] w-full mx-4 my-12 ">
         <div className="flex-1 flex flex-wrap justify-between gap-12">
             <div className="flex flex-wrap flex-1 gap-16 md:gap-32">
-                <h1 className="font-[450] text-white text-5xl xl:text-6xl leading-[85px] max-w-96 xl:max-w-xl">Calculadora de partidas <span className="text-[var(--rankColor)]">Rankeadas</span></h1>
+                <h1 className="font-[450] text-white text-4xl lg:text-6xl max-w-96 xl:max-w-xl">Calculadora de partidas <span className="text-[var(--rankColor)]">Rankeadas</span></h1>
                 <form action="" className="flex flex-wrap gap-6 ">
                     <div className="flex flex-col gap-2">
                         <label htmlFor="playerVictories">Quantidade de <span className="text-legendary">Vitórias</span> :</label>
